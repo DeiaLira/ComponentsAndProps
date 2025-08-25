@@ -1,0 +1,20 @@
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.imageContainer,
+.detailsContainer,
+.buttonContainer {
+  flex: 1; 
+}
